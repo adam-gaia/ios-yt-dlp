@@ -1,0 +1,9 @@
+#!/usr/bin/sh
+set -e
+
+OUTDIR="downloads"
+
+url="$1"
+
+yt-dlp -o "${OUTDIR}" "${url}"
+
