@@ -14,6 +14,7 @@ curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o ./bi
 
 4. Install wrapper script
 ```
-
+curl https://raw.githubusercontent.com/adam-gaia/ios-yt-dlp/refs/heads/main/yt-dlp-wrapper -o ./bin/yt-dlp-wrapper
+chmod +x ./bin/yt-dlp-wrapper
 ```
 
