@@ -1,9 +1,10 @@
 #!/usr/bin/sh
 set -e
 
-OUTDIR="downloads"
+# '${HOME}/Documents' is the default dir and accessible in Files app
+OUTDIR="${HOME}/Documents/downloads"
 
 url="$1"
 
-yt-dlp -o "${OUTDIR}" "${url}"
+yt-dlp -P "${OUTDIR}" "${url}"
 
